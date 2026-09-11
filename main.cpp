@@ -11,7 +11,7 @@ int main() {
     int op = 0;
 
     while (op != 4) {
-        cout << "\n--- MENU CAJERO ---" << endl;
+        cout << "\n-MENU CAJERO -" << endl;
         cout << "1. Mostrar balance\n2. Depositar\n3. Retirar\n4. Salir\nOpcion: ";
         cin >> op;
 
@@ -19,13 +19,12 @@ int main() {
             case 1:
                 mostrarBalance(balance);
                 break;
-
-                case 2: depositar(balance);
-                  break;
-
-                  case 3: retirar(&balance);
-                  break;
-                  
+            case 2:
+                depositar(balance);
+                break;
+            case 3:
+                retirar(&balance);
+                break;
             case 4:
                 cout << "\nSaliendo del sistema..." << endl;
                 break;
