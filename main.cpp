@@ -19,13 +19,12 @@ int main() {
             case 1:
                 mostrarBalance(balance);
                 break;
-
-                case 2: depositar(balance);
-                  break;
-
-                  case 3: retirar(&balance);
-                  break;
-                  
+            case 2:
+                depositar(balance);
+                break;
+            case 3:
+                retirar(&balance);
+                break;
             case 4:
                 cout << "\nSaliendo del sistema..." << endl;
                 break;
